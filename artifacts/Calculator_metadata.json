@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retornarRes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Calculator.sol": "Calculator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Calculator.sol": {
+			"keccak256": "0x1cb3a28f70b0200ebd644d482d0e8bbb00a4ae9f7e2eac677f7b1913ca2cc585",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b5c7594dad8f978036bef6676badcfaefc217918b73c88bb5fc26913652c029",
+				"dweb:/ipfs/QmbqCkPSDZ2Ev2619cZG5MFY1nUK6h5kYa7vKRdoYAHnFf"
+			]
+		}
+	},
+	"version": 1
+}
