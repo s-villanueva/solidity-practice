@@ -3,6 +3,8 @@ pragma solidity 0.8.30;
 
 contract Twitter{
 
+    uint16 constant MAX_LENGTH = 280;
+
     struct Tweet{
         address author;
         string content;
@@ -14,6 +16,8 @@ contract Twitter{
 
     function createTweets(string memory _tweet) public {
 
+        require(bytes(_tweet).length <= MAX_LENGTH, "Tweet too Long!");
+
         Tweet memory newTweet = Tweet({
             author:msg.sender,
             content: _tweet,
@@ -24,8 +28,8 @@ contract Twitter{
         tweets[msg.sender].push(newTweet);
     }
 
-    function getTweet (address _owner, uint _i) view  public returns (Tweet memory){
-        return tweets[_owner][_i];
+    function getTweet (uint _i) view  public returns (Tweet memory){
+        return tweets[msg.sender][_i];
     }
     function getAllTweets (address _owner) view public returns (Tweet [] memory){
         return tweets[_owner];

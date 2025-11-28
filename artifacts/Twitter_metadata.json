@@ -62,11 +62,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
@@ -173,11 +168,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x9cbc1fdf5519f7f80a2f80daaff675e486b2542cefdec4997204c294e995fc90",
+			"keccak256": "0x58b8384005a40b941def347bf70a99ab41b2f8687e911ea2794307da4ba25f74",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff7d610c92454a873b4de16ff05e8e9bfd42d2ea25a71e7bd8def21a7008f416",
-				"dweb:/ipfs/QmRMtksQAaAZobV5fN4ajWEiptv7nLYZJzRP1nFRZtD1S9"
+				"bzz-raw://f728e7c4566562ef25b9904b2d7d6717798ef8d3062c730eefb78b6b78b3868a",
+				"dweb:/ipfs/Qmejb7pmmccVLAsTNRxvwYdqDwX4TKUBD6QkA5dNDhvoQh"
 			]
 		}
 	},
